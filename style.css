@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: rgb(128, 128, 128);
+    color:white;
+    height: 2em;
+    font-size: 3em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-container{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+.balance{
+    display:flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    align-items: center;
+    gap:.5em;
+    border: 1px solid black;
+    padding-bottom: .5em;
+
+}
+
+.reset-btn{
+    background-color: rgb(175, 85, 82);
+    color: white;
+    padding: .5em;
+    border-radius: 3px;
+    border: none;
+}
+
+.balance-number{
+    color: rgb(165, 176, 135);
+}
+
+.submit-transaction{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid rgb(247, 247, 247);
+    gap: .5em;
+    /* width: 50%; */
+}
+
+
+
+.transaction-title{
+    background-color: rgb(247, 247, 247);
+}
+
+.submit-btn{
+    background-color: rgb(73, 107, 228);
+    color: white;
+    padding: .5em;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.nav-menu{
+    background-color: rgb(247, 247, 247);
+    display:flex;
+    justify-content: space-between;
+    padding: 2px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}

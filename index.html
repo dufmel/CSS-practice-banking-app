@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Banking App</title>
+</head>
+<body>
+    <header>Banking App</header>
+    <div class="parent-container">
+        <section class="balance">
+            <h2>Balance</h2>
+            <p class="balance-number">$0.00</p>
+            <button class="reset-btn">Reset</button>
+        </section>
+        <section class="submit-transaction">
+            <!-- <form action="">                 -->
+                <p class="transaction-title">Submit Transaction</p>
+                <p>Amount</p>
+                <label for="amount">$</label>
+                <input type="number" name="amount" id="amount">
+                <p>Type</p>
+                <select name="type" id="type">
+                    <option value="withdraw">Withdraw</option>
+                    <option value="Deposit">Deposit</option>
+                </select>           
+                <button class="submit-btn">Submit</button>
+            <!-- </form> -->
+        </section>
+    </div>
+
+    <nav class="nav-menu">
+        <p>Transaction ID</p>
+        <p>Type</p>
+        <p>Amount</p>
+        <p>Starting Balance</p>
+        <p>New Balance</p>
+    </nav>
+</body>
+</html>
